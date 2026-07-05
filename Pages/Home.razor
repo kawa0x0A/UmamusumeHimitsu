@@ -1,4 +1,4 @@
-﻿@page "/"
+@page "/"
 @inject IJSRuntime JS
 
 <PageTitle>ヒミツジェネレーター</PageTitle>
@@ -9,13 +9,6 @@
 
     <div class="mt-6">
         <div id="capture-target" class="bg-[#fdfcf9]">
-            <div class="flex items-center justify-between rounded-t-md bg-gradient-to-b from-lime-500 to-lime-600 px-4 py-2.5 text-lg font-bold text-white">
-                <span>@(string.IsNullOrWhiteSpace(CharacterName) ? "キャラクター名" : CharacterName)</span>
-                <div class="flex items-center gap-1.5 pr-1">
-                    <span class="h-5 w-[3px] -skew-x-[20deg] bg-[#ffffffe6]"></span>
-                    <span class="h-5 w-[3px] -skew-x-[20deg] bg-[#ffffffe6]"></span>
-                </div>
-            </div>
             <div class="flex gap-3.5 rounded-b-xl border border-t-0 border-stone-200 bg-white p-4">
                 <img src="@IconSrc" alt="icon" class="h-18 w-18 shrink-0 rounded-full object-cover" />
                 <div class="min-w-0 flex-1">

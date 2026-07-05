@@ -25,8 +25,11 @@
 }
 
 body {
-    font-family: "UmaDynamic", "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Yu Gothic UI", sans-serif;
     background-color: #f2efe9;
+}
+
+#capture-target {
+    font-family: "UmaDynamic", "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Yu Gothic UI", sans-serif;
 }
 
 /* --- Blazor boilerplate (kept as-is) --- */
