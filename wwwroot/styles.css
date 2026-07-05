@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: "UmaDynamic";
-    src: url("../font/dynamic01.otf") format("opentype");
+    src: url("font/dynamic01.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
